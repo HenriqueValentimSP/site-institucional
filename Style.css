@@ -1,0 +1,48 @@
+
+*{
+    padding:0;
+    margin:0;
+    background-color: black;
+    color:#F1F1F1;
+
+}
+
+h1{
+    background-color: black;
+
+}
+
+.header{
+    padding: 15px;
+    border-bottom: 3px solid #32b9cd;
+
+
+}
+
+.container{
+    margin:0 auto;
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    color: #32b9cd;;
+    font-weight: 1200;
+
+
+}
+
+ul{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    list-style:none;
+
+}
+
+li{
+    color:#e3b062;
+
+}
