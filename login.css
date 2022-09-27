@@ -3,6 +3,8 @@
 .caixaForm{
     background-color: #e5e5e5;
     padding: 50px 50px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -15,7 +17,8 @@
 
 .caixaForm h2{
     color: #e6005a;
-    margin-bottom: 20px;
+    margin-bottom: 1%;
+
 }
 
 .campo{

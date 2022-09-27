@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
-    <title>Site institucional</title>
-
+    <link rel="stylesheet" href="login.css">
+    <title>Cadastro</title>
 </head>
 <body>
+
     <!-- Header-->
     <div class="header">
 
@@ -47,42 +48,51 @@
     </div>
     <!--Fim header-->
 
-    <!--Banner-->
     <div class="banner">
         <div class="container">
-            <p>Preservando <b>hoje</b> 
-            para existirem <b>amanhã</b></p>
-        </div>
-    </div>
-    <!--Banner-->
 
-    <!--Social-->
-    <div class="social">
-        <div class="container">
-            <div class="caixas">
-                <div class="caixa">
-                    <img src="img/planet-earth_color.png" alt="Imagem sobre nossa missão" >
-                    <h4>Missão</h4>
-                    <p>Construir o melhor site institucional do Brasil, por alunos sptech</p>
-                </div>
+            <!--Form-->
 
-                <div class="caixa">
-                    <img src="img/lightbulb_color.png" alt="Imagem sobre nossa visão">
-                    <h4>Visão</h4>
-                    <p>Trazer a melhor experiencia para o usuário em toda sua navegação do site</p>
-                </div>
+            <div class="caixaForm">
+                <h2>Bem vindo(a)</h2>
+                
+                <div class="campo">
 
-                <div class="caixa">
-                    <img src="img/growth_color.png" alt="Imagem sobre nossos valores">
-                    <h4>Valores</h4>
-                    <p>Resiliência, Foco, Ética, Disciplina, empatia, coragem, amor e transparência</p>
+                    <label for="Nome">Nome:</label>
+                    <input type="nome" id="inpNome" placeholder="Insira seu Nome">
+
+                </div>  
+
+                <div class="campo">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="Email" placeholder="exemplo@email.com">
+
+                </div>  
+
+                <div class="campo">
+
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="*********">
 
                 </div>
+
+                <div class="campo">
+
+                    <label for="password">Confirme sua senha</label>
+                    <input type="password" id="password" placeholder="*********">
+
+                </div>
+
+                <button onclick="">Cadastrar</button>
+
             </div>
+
+            <!--Fim form-->
+
         </div>
     </div>
-    <!--Fim Social-->
-
+    
     <!-- Footer-->
 
     <div class="footer">
